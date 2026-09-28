@@ -33,7 +33,7 @@ class ModuleLauncherScreen extends StatefulWidget {
 
   // Konfigurasi batas modul aktif perkuliahan (diatur oleh Dosen Pengampu)
   // Mahasiswa hanya dapat mengakses modul dengan nomor <= activeModuleUntil
-  static const int activeModuleUntil = 3; // Saat ini: Minggu ke-1 (Hanya Modul 01 terbuka)
+  static const int activeModuleUntil = 4; // Saat ini: Minggu ke-1 (Hanya Modul 01 terbuka)
 
   // Token akses kelas untuk membuka modul saat praktikum di lab
   static const Map<int, String> modulePasscodes = {

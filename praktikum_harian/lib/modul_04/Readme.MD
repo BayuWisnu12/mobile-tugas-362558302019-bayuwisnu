@@ -1,0 +1,7 @@
+Jawab dalam laporan, masing-masing minimal satu paragraf.
+
+Di Fase A, penyaringan kategori dilakukan di dalam build() dengan where(). Di Fase B, penyaringan itu berpindah ke dalam repository. Menurut Anda, apa yang menjadi lebih mudah dan apa yang menjadi lebih sulit setelah perpindahan itu? Sebutkan satu hal untuk masing-masing.
+Anda menulis catch (e) { return []; } agar aplikasi tidak pernah crash. Jelaskan mengapa keputusan itu justru membuat aplikasi lebih buruk, dan sebutkan apa yang seharusnya dilakukan.
+Pada Fase A, AnnouncementApi mengembalikan Announcement.getSampleAnnouncements() yang berupa list const. Di Fase B, SampleAnnouncementRepository menyalinnya lebih dulu dengan List.of. Menurut Anda, mengapa Fase A tidak membutuhkan penyalinan itu, sedangkan Fase B membutuhkannya? Kaitkan jawaban Anda dengan operasi apa yang dilakukan masing-masing kelas.
+Riverpod 3 mencoba ulang provider yang gagal secara otomatis. Menurut Anda, mengapa perilaku itu dipilih sebagai bawaan, dan kapan justru merugikan? Berikan satu contoh situasi untuk masing-masing.
+Andaikan endpoint pengumuman kampus hanya boleh dipanggil sekali per hari karena kuota. Apakah FutureBuilder di Fase A masih layak? Perubahan apa yang paling sedikit yang perlu Anda lakukan agar kuota itu tidak terlampaui?
